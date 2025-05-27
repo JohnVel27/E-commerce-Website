@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+
+.navbar-container {
+    @apply w-full bg-white shadow-md;
+}
+
+.navbar-content {
+    @apply max-w-6xl mx-auto flex items-center justify-between py-3 px-4;
+}
+
+.logo {
+    @apply h-20 w-auto max-w-[180px] object-contain;
+}
+
+.search-container {
+    @apply flex items-center w-full max-w-lg;
+}
+
+.search-input {
+    @apply w-full p-3 border rounded-l-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-900;
+}
+
+.search-button {
+    @apply bg-blue-900 p-3.5 rounded-r-full flex items-center justify-center hover:bg-blue-700 transition;
+}
+
+.search-icon {
+    @apply h-6 w-6 text-white;
+}
